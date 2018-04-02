@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Textile';
+	src: url('fonts/Textile.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Textile';
+	font-size: 5vw;
+}
+
+button {
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Textile';
+	font-size: 5vw;
+}
+
+#pickedEpisode {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -65%);
+	text-align: center;
+}

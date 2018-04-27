@@ -8,34 +8,24 @@ body {
 	background-color: black;
 	color: white;
 	font-family: 'Textile';
-	font-size: 4vw;
-	margin: auto;
+	font-size: 5vw;
 }
 
-.wrapper {
-	text-align: center;
-}
-
-#episode-picker-button {
+button {
 	background-color: black;
 	color: white;
-	position: static;
+	position: fixed;
 	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	font-family: 'Textile';
-	font-size: 4vw;
-	padding: 5vw;
-	display: block;
-	margin: auto;
-	margin-top: 10vw;
-	width: 50%
+	font-size: 5vw;
 }
 
 #pickedEpisode {
-	position: static;
-	/*top: 80%;
+	position: absolute;
+	top: 80%;
 	left: 50%;
-	/*transform: translate(-50%, -65%);*/
+	transform: translate(-50%, -65%);
 	text-align: center;
-	margin: auto;
-	padding: 3vw;
 }

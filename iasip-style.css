@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Textile';
+	src: url('fonts/Textile.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	background-color: black;
+	color: white;
+	font-family: 'Textile';
+	font-size: 4vw;
+	margin: auto;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+#episode-picker-button {
+	background-color: black;
+	color: white;
+	position: static;
+	top: 50%;
+	font-family: 'Textile';
+	font-size: 4vw;
+	padding: 5vw;
+	display: block;
+	margin: auto;
+	margin-top: 10vw;
+	width: 50%
+}
+
+#pickedEpisode {
+	position: static;
+	/*top: 80%;
+	left: 50%;
+	/*transform: translate(-50%, -65%);*/
+	text-align: center;
+	margin: auto;
+	padding: 3vw;
+}
